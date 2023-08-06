@@ -16,6 +16,7 @@
     object-fit:cover;
     object-position: 0% 22%;
 }
+
 .logo img{
     height: 100px;
     position: absolute;
@@ -23,9 +24,11 @@
     right: 120px;
     background-color: white;
 }
+
 header{
     position: relative;
 }
+
 header h1 {
     font-weight: 800;
     font-size: 80px;
@@ -37,7 +40,7 @@ nav a{
     display: block;
 }
 
-.upcoming-events {
+.section-title {
     background-color: black;
     color: white;
     text-align: center;
@@ -50,17 +53,19 @@ nav a{
     margin-top: 50px;
     margin-left: 30px;
 }
-.events {
+
+.content {
     max-width: 70%;
 }
-.events div {
-margin-bottom: 20px;
 
+.content div {
+margin-bottom: 20px;
 }
 
 .menu {
     margin-right: 80px;
 }
+
 .menu nav {
     height: 200px;
     display: flex;
