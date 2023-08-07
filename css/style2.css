@@ -6,7 +6,7 @@
 }
 
 .banner {
-    height: 300px;
+    height: 400px;
     
 }
 
@@ -19,7 +19,6 @@
 
 .logo img{
     height: 100px;
-    position: absolute;
     bottom: -55px;
     right: 120px;
     background-color: white;
@@ -29,15 +28,33 @@ header{
     position: relative;
 }
 
-header h1 {
-    font-weight: 800;
-    font-size: 80px;
+nav {
+    display: flex;
     position: absolute;
-    
+    top: 70px;
+    right: 0px;
 }
 
-nav a{
-    display: block;
+nav > * {
+padding: 2px 5px;
+background-color: blue;
+margin-left: 5px; 
+} 
+
+nav p {
+    background-color: darkgreen;
+}
+
+
+.boton {
+    border: 3px solid black; 
+    color: white;
+    box-shadow: 12px 12px 2px 1px rgba(174, 184, 139, 5.2);
+}
+
+header h1 {
+    font-weight: 800;
+    font-size: 60px;    
 }
 
 .section-title {
@@ -46,6 +63,14 @@ nav a{
     text-align: center;
     font-size: 30px;
     padding: 8px;
+}
+
+.design1{ 
+    display: none;
+}
+
+.design2 {
+    margin-right: 50px;
 }
 
 .container {
@@ -62,21 +87,3 @@ nav a{
 margin-bottom: 20px;
 }
 
-.menu {
-    margin-right: 80px;
-}
-
-.menu nav {
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.menu nav a, .menu nav p {
-    margin-bottom: 20px;
-}
-
-.design2{
-    display: none;
-}
